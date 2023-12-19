@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Welcome! I am an undergraduate student at the [University of Massachusetts Amherst](https://www.umass.edu/) studying Computer Science and Mathematics. I am currently at my fourth year of undergraduate studies at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/), after which I plan to pursue a Master's degree in Computer Science. My interests include machine learning, cybersecurity, and software engineering. I am currently working as an undergraduate course assistant (UCA) for [CICS 256: Make: A Hands-on Introduction to Physical Computing](https://sites.google.com/view/cics256/home).
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+In my free time, I like to workout, cook, or binge-watch TV shows (currently watching [BCS](https://en.wikipedia.org/wiki/Better_Call_Saul)). I also enjoy working on random projects, such as hosting a JellyFin Server on my Raspberry Pi, or building this website using Jekyll and GitHub Pages.
+
+Checkout my [resume](/files/resume.pdf) for more information about me.

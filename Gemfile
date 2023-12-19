@@ -14,4 +14,7 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
+  gem "webrick" # for local development
+  gem "jekyll-watch"
+  gem "faraday-retry"
 end
