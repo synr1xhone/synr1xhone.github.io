@@ -7,4 +7,4 @@ Welcome! I am an undergraduate student at the [University of Massachusetts Amher
 
 In my free time, I like to workout, cook, or binge-watch TV shows (currently watching [BCS](https://en.wikipedia.org/wiki/Better_Call_Saul)). I also enjoy working on random projects, such as hosting a JellyFin Server on my Raspberry Pi, or building this website using Jekyll and GitHub Pages.
 
-Checkout my [resume](/files/resume.pdf) for more information about me.
+Checkout my [resume](/assets/files/resume.pdf) for more information about me.
