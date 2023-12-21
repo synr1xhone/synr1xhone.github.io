@@ -113,3 +113,9 @@ The frontend, backend, and database are all containerized using Docker. Each one
 - Docker
 - Docker Compose
 - Git and Github
+
+## Next Steps
+
+- Add a user system
+- Add a way to share polls (link or QR code?)
+- Deploy the app to a cloud service
