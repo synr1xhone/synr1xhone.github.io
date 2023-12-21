@@ -25,6 +25,15 @@ Poll Creator Pro Max Ultra is a web app that allows users to create polls and vo
 ### :tv: Demo Video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RUrfHlBX4GQ?si=-_EUXqqUiBqM8g8C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+### :computer: Test it out yourself:
+
+1. Clone the repository at: [https://zzuo123.github.io/projects/poll-creator/](https://zzuo123.github.io/projects/poll-creator/).
+2. Download and install [Docker](https://www.docker.com/products/docker-desktop).
+3. Open a terminal and navigate to the root directory of the repository.
+4. Run `docker-compose -f docker-compose.dev.yml up --build` to build and run the containers.
+
+That's it! You can now access the web app at [http://localhost:3000](http://localhost:3000).
+
 
 ## :thinking: Why did I make it?
 
