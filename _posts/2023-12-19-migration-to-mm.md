@@ -1,6 +1,6 @@
 ---
 title: 'Migrating to Minimal Mistakes'
-date: 2023-12-18
+date: 2023-12-19
 toc: true
 toc_sticky: true
 toc_label: "Table of Contents"
