@@ -13,7 +13,7 @@ header:
     - label: "Learn more"
       url: "/#about-me"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/a-group-of-trees-covered-in-snow-on-a-cloudy-day-ur3pxr-6CmA)"
-excerpt: "<div id=\"header-wrapper\"><h2 id=\"header\">I am a <a href=\"\" class=\"typewrite\" data-period=\"1000\" data-type='[ \"Student\", \"Programmer\", \"Maker\", \"Adventurer\" ]'><span class=\"wrap\"></span></a>.</h2></div>"
+excerpt: "<div id=\"header-wrapper\"><h2 id=\"header\">I am a <span href=\"\" class=\"typewrite\" data-period=\"1000\" data-type='[ \"Student\", \"Programmer\", \"Maker\", \"Adventurer\" ]'><span class=\"wrap\"></span></span>.</h2></div>"
 ---
 
 {% include typewriter.html %}
