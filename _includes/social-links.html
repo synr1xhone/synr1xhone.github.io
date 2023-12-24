@@ -1,0 +1,35 @@
+<ul class="list-group list-group-horizontal">
+  {% for link in site.author.links %}
+    <li class="list-group-item"><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+    <!-- <li>
+      <a href="{{ link.url }}" class="list-group-item list-group-item-action">
+        <i class="fab fa-{{ link.icon }}"></i>something
+      </a>
+    </li> -->
+  {% endfor %}
+</ul>
+
+<style>
+  .list-group-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    max-width: 100%;
+  }
+
+  .list-group-item {
+    min-width: 7em;
+    list-style-type: none;
+  }
+
+  .list-group-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #eee;
+  }
+</style>
