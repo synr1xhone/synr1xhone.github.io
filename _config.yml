@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: George's Blog
+title: George Zuo
 subtitle: >-
   Undergraduate Student @ Univ. of Mass. Amherst, CICS.
 email: georgezuo888@gmail.com
@@ -66,7 +66,7 @@ plugins:
 
 
 author:
-  name    : "Zhiyang Zuo"
+  name    : "George Zuo"
   avatar  : "/assets/images/bio-photo.jpg"
   bio     : "Undergraduate Student @ Univ. of Mass. Amherst, CICS."
   location: "Amherst, MA"

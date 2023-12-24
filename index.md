@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: splash
-title: "George's Blog"
+title: "Hi there👋, I am George!"
 author_profile: true
 header:
   overlay_color: "#000"
