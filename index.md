@@ -10,15 +10,24 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/splash-img.jpg
   actions:
-    - label: "Learn more"
-      url: "/#about-me"
+    - label: "View Blog"
+      url: "/blog/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/a-group-of-trees-covered-in-snow-on-a-cloudy-day-ur3pxr-6CmA)"
 excerpt: "<h2 id=\"header\">I am a <span class=\"typewrite\" data-period=\"1000\" data-type='[ \"Student\", \"Programmer\", \"Maker\", \"Adventurer\" ]'><span class=\"wrap\"></span></span>.</h2>"
+feature_row:
+  - image_path: /assets/images/blog_images/poll-creator/pc-cover.png
+    alt: "Poll Creator Frontend Screenshot"
+    title: "Poll Creator Pro Max Ultra"
+    excerpt: "A web application that allows users to create and share polls with their friends."
+    url: "/projects/poll-creator"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include typewriter.html %}
 
 # About Me
+<hr>
 
 <figure style="width: 300px; height: auto;" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/skiing_profile.jpg" alt="">
@@ -35,5 +44,11 @@ Checkout my [resume](/assets/files/resume.pdf) for more information about me.
 <div style="clear: both;"></div>
 
 # My Links
+<hr>
 
 {% include social-links.html %}
+
+# Featured Projects
+<hr>
+
+{% include feature_row %}
