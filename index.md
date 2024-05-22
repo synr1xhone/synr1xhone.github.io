@@ -22,6 +22,13 @@ feature_row:
     url: "/projects/poll-creator"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/11/trusted-reviews-hp-envy-x360-15-open.jpg
+    alt: "HP ENVY x360 15-es1035nr"
+    title: "GServe: My Personal Server"
+    excerpt: "An HP Envy X360 Laptop running a suite of services on Docker."
+    url: "/projects/gserve"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include typewriter.html %}
