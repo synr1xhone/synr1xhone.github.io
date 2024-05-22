@@ -26,7 +26,7 @@ feature_row:
     alt: "HP ENVY x360 15-es1035nr"
     title: "GServe: My Personal Server"
     excerpt: "An HP Envy X360 Laptop running a suite of services on Docker."
-    url: "/projects/gserve"
+    url: "/blog/gserve"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
