@@ -15,11 +15,11 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/a-group-of-trees-covered-in-snow-on-a-cloudy-day-ur3pxr-6CmA)"
 excerpt: "<h2 id=\"header\">I am a <span class=\"typewrite\" data-period=\"1000\" data-type='[ \"Student\", \"Programmer\", \"Maker\", \"Adventurer\" ]'><span class=\"wrap\"></span></span>.</h2>"
 feature_row:
-  - image_path: https://i.ibb.co/wB14JsQ/pc-cover.png
-    alt: "Poll Creator Frontend Screenshot"
-    title: "Poll Creator Pro Max Ultra"
-    excerpt: "A web application that allows users to create and share polls with their friends."
-    url: "/projects/poll-creator"
+  - image_path: https://i.ibb.co/ZKh3sSf/jellyfin-home.png
+    alt: "Jellyfin Home Page"
+    title: "Starting new project: Jellyfin Recommender"
+    excerpt: "A ML-based movie recommendation system based on past viewing activities."
+    url: "/blog/jellyfin-rec"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/11/trusted-reviews-hp-envy-x360-15-open.jpg
@@ -29,11 +29,11 @@ feature_row:
     url: "/blog/gserve"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: https://i.ibb.co/ZKh3sSf/jellyfin-home.png
-    alt: "Jellyfin Home Page"
-    title: "Starting new project: Jellyfin Recommender"
-    excerpt: "A ML-based movie recommendation system based on past viewing activities."
-    url: "/blog/jellyfin-rec"
+  - image_path: https://i.ibb.co/wB14JsQ/pc-cover.png
+    alt: "Poll Creator Frontend Screenshot"
+    title: "Poll Creator Pro Max Ultra"
+    excerpt: "A web application that allows users to create and share polls with their friends."
+    url: "/projects/poll-creator"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
