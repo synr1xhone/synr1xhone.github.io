@@ -13,16 +13,16 @@ tags:
   - Game
   - Hardware
 gallery:
-  - url: /assets/images/blog_images/arduino-pong/one.jpg
-    image_path: /assets/images/blog_images/arduino-pong/one.jpg
+  - url: https://i.ibb.co/HHxYXcS/one.jpg
+    image_path: https://i.ibb.co/HHxYXcS/one.jpg
     alt: "Game Start, ball is in the middle"
     title: "Game Start, ball is in the middle"
-  - url: /assets/images/blog_images/arduino-pong/two.jpg
-    image_path: /assets/images/blog_images/arduino-pong/two.jpg
+  - url: https://i.ibb.co/nrsHn1Z/two.jpg
+    image_path: https://i.ibb.co/nrsHn1Z/two.jpg
     alt: "Ball hits the right edge (not the paddle), score for left player"
     title: "Ball hits the right edge (not the paddle), score for left player"
-  - url: /assets/images/blog_images/arduino-pong/three.jpg
-    image_path: /assets/images/blog_images/arduino-pong/three.jpg
+  - url: https://i.ibb.co/gPTQ33s/three.jpg
+    image_path: https://i.ibb.co/gPTQ33s/three.jpg
     alt: "Displaying the score"
     title: "Displaying the score"
 ---

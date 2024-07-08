@@ -52,7 +52,7 @@ While there are *many* poll creator tools online, they either have a lot of ads,
 
 ### Schema/Diagram
 
-![Design Diagram](/assets/images/blog_images/poll-creator/20231207_220144.jpg)
+![Design Diagram](https://i.ibb.co/3SC17p2/20231207-220144.jpg)
 
 ### Frontend (Svelte routing with parameters)
 

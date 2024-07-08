@@ -25,7 +25,7 @@ How did I set up my website?
 ======
 I followed the instructions on the [AcademicPages](https://www.github.com/academicpages/academicpages.github.io) GitHub page. I forked the repository, renamed it to `zzuo123.github.io`, and enabled GitHub Pages. I then followed the instructions to customize my website. I also followed the instructions to set up a blog.
 
-![front page](/assets/images/blog_images/20231218-post1-img1.png)
+![front page](https://i.ibb.co/gvqyxhY/20231218-post1-img1.png)
 
 How did I write my first blog post?
 ======

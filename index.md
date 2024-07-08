@@ -15,7 +15,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/a-group-of-trees-covered-in-snow-on-a-cloudy-day-ur3pxr-6CmA)"
 excerpt: "<h2 id=\"header\">I am a <span class=\"typewrite\" data-period=\"1000\" data-type='[ \"Student\", \"Programmer\", \"Maker\", \"Adventurer\" ]'><span class=\"wrap\"></span></span>.</h2>"
 feature_row:
-  - image_path: /assets/images/blog_images/poll-creator/pc-cover.png
+  - image_path: https://i.ibb.co/wB14JsQ/pc-cover.png
     alt: "Poll Creator Frontend Screenshot"
     title: "Poll Creator Pro Max Ultra"
     excerpt: "A web application that allows users to create and share polls with their friends."
