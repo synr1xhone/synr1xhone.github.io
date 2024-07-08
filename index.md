@@ -29,6 +29,13 @@ feature_row:
     url: "/blog/gserve"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: https://i.ibb.co/ZKh3sSf/jellyfin-home.png
+    alt: "Jellyfin Home Page"
+    title: "Starting new project: Jellyfin Recommender"
+    excerpt: "A ML-based movie recommendation system based on past viewing activities."
+    url: "/blog/jellyfin-rec"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include typewriter.html %}
