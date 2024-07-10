@@ -17,9 +17,9 @@ excerpt: "<h2 id=\"header\">I am a <span class=\"typewrite\" data-period=\"1000\
 feature_row:
   - image_path: https://i.ibb.co/ZKh3sSf/jellyfin-home.png
     alt: "Jellyfin Home Page"
-    title: "Starting new project: Jellyfin Recommender"
-    excerpt: "A ML-based movie recommendation system based on past viewing activities."
-    url: "/blog/jellyfin-rec"
+    title: "Starting new project: JellyRec - A Jellyfin Movie/Show Recommender"
+    excerpt: "A movie recommendation system based on past viewing activities."
+    url: "/blog/jellyrec"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/11/trusted-reviews-hp-envy-x360-15-open.jpg

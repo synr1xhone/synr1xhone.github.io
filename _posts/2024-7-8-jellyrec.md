@@ -1,5 +1,5 @@
 ---
-title: 'Starting new project: Jellyfin Recommender'
+title: 'Starting new project: JellyRec - A Jellyfin Movie/Show Recommender'
 date: 2024-7-8
 toc: true
 toc_sticky: true
@@ -8,7 +8,6 @@ categories:
   - blog 
 tags:
   - WebDev
-  - MachineLearning
   - Docker
   - Express
 ---
