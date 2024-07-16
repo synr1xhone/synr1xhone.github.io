@@ -30,6 +30,14 @@ As for the recommendation system, that part is still under research and I will g
 
 2. Create my own recommendation system using a neural network, and train it on the user's viewing history. However, this approach is more complex and time-consuming, so I am not sure if I will go with this approach. The upside is that I get more experience with neural networks.
 
+{% capture notice %}
+#### Model-based filtering (collaborative filtering)
+- Recommendation based on other user’s rating
+- Jellyfin doesn’t have ratings, but have favorites, so favorites gets 5 (really like), other gets 3 (meh, have not watched yet/don’t really like). No movie assigned 0 since user won’t keep a movie they don’t like
+{% endcapture %}
+
+<div class="notice info">{{ notice | markdownify }}</div>
+
 ### Training Data
 
 Since my own jellyfin server is only for myself and a few family members, the training data will be limited. So I am thinking of using public datasets like the [MovieLens](https://grouplens.org/datasets/movielens/) dataset to train the recommendation system. 
@@ -40,5 +48,29 @@ Since my own jellyfin server is only for myself and a few family members, the tr
 - **Backend**: Express
 - **Database**: MongoDB
 - **Deployment**: Docker
+
+## Resources :books:
+
+[https://youtu.be/3ecNC-So0r4?si=juHM9mMa9Ag1scnc](https://youtu.be/3ecNC-So0r4?si=juHM9mMa9Ag1scnc)
+
+YouTube video with an example using the the MovieLen dataset (instrumental, checkout notebook)
+
+[https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset/data](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset/data)
+
+Link to MovieLens dataset
+
+[https://www.google.com/search?client=firefox-b-1-d&q=pearson+correlation](https://www.google.com/search?client=firefox-b-1-d&q=pearson+correlation)
+
+Learn about pearson correlation vs. cosine distance
+
+### Alternative Resources
+
+[https://www.freecodecamp.org/news/how-to-build-a-movie-recommendation-system-based-on-collaborative-filtering/](https://www.freecodecamp.org/news/how-to-build-a-movie-recommendation-system-based-on-collaborative-filtering/)
+
+This one uses cosine similarity, is text based
+
+[https://www.turing.com/kb/content-based-filtering-in-recommender-systems#collaborative-filtering](https://www.turing.com/kb/content-based-filtering-in-recommender-systems#collaborative-filtering)
+
+This one explains an alternative approach to collaborative filtering (content-based)
 
 # More to come...
