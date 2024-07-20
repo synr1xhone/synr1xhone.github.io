@@ -80,7 +80,7 @@ Status for the jail: overseerr
 |- Filter
 |  |- Currently failed: 0
 |  |- Total failed:     0
-|  `- File list:        /home/george/gserve/jellyseerr_config/logs/overseerr.log
+|  `- File list:        <path to Jellyseerr config>/logs/overseerr.log
 `- Actions
    |- Currently banned: 0
    |- Total banned:     0
