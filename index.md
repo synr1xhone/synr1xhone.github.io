@@ -17,7 +17,7 @@ excerpt: "<h2 id=\"header\">I am a <span class=\"typewrite\" data-period=\"1000\
 feature_row:
   - image_path: https://i.ibb.co/ZKh3sSf/jellyfin-home.png
     alt: "Jellyfin Home Page"
-    title: "Starting new project: JellyRec - A Jellyfin Movie/Show Recommender"
+    title: "JellyRec - A Jellyfin Movie/Show Recommender"
     excerpt: "A movie recommendation system based on past viewing activities."
     url: "/blog/jellyrec"
     btn_label: "Read More"
@@ -48,9 +48,9 @@ feature_row:
   <figcaption>Photo taken in 2019.</figcaption>
 </figure> 
 
-Welcome! I am an undergraduate student at the [University of Massachusetts Amherst](https://www.umass.edu/) studying Computer Science and Mathematics. I am currently at my fourth year of undergraduate studies at the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/), after which I plan to pursue a Master's degree in Computer Science. My interests include machine learning, cybersecurity, and software engineering. I am currently working as an undergraduate course assistant (UCA) for [CICS 256: Make: A Hands-on Introduction to Physical Computing](https://sites.google.com/view/cics256/home).
+Welcome! I am a student at the [University of Massachusetts Amherst](https://www.umass.edu/) pursuing a Master's Degree in Computer Science from the [Manning College of Information and Computer Sciences](https://www.cics.umass.edu/). My interests include machine learning, networking, cybersecurity, and software engineering. I received my Bachelor's Degree in Computer Science from [UMass Amherst](https://www.umass.edu/) in 2024, where I also worked as an undergraduate course assistant (UCA) for [CICS 256: Make: A Hands-on Introduction to Physical Computing](https://sites.google.com/view/cics256/home) as well as [CS377: Operating Systems](https://github.com/umass-cs-377/377-F22).
 
-In my free time, I like to workout, cook, or binge-watch TV shows (currently watching [Attack on Titan](https://en.wikipedia.org/wiki/Attack_on_Titan)). I also enjoy working on random projects, such as hosting a JellyFin Server on my Raspberry Pi, or building this website using Jekyll and GitHub Pages.
+In my free time, I like to workout, cook, or binge-watch TV shows (currently watching [Attack on Titan](https://en.wikipedia.org/wiki/Attack_on_Titan)). I also enjoy working on random projects, such as hosting a home-server on a laptop ([more info here](/blog/gserve/)) and creating a movie recommendation system for [Jellyfin](https://jellyfin.org/) ([more info here](/blog/jellyrec/)).
 
 Checkout my [resume](/assets/files/resume.pdf) for more information about me.
 

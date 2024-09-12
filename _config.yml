@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: George Zuo
 subtitle: >-
-  Undergraduate Student @ Univ. of Mass. Amherst, CICS.
+  Master Student @ Univ. of Mass. Amherst, CICS.
 email: georgezuo888@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Zhiyang (George) Zuo's Personal Website, Portfolio, and Blog
@@ -68,7 +68,7 @@ plugins:
 author:
   name    : "George Zuo"
   avatar  : "/assets/images/bio-photo.jpg"
-  bio     : "Undergraduate Student @ Univ. of Mass. Amherst, CICS."
+  bio     : "Master Student @ Univ. of Mass. Amherst, CICS."
   location: "Amherst, MA"
   links:
     - label: "Website"
