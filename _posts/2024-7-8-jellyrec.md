@@ -1,5 +1,5 @@
 ---
-title: 'Starting new project: JellyRec - A Jellyfin Movie/Show Recommender'
+title: 'JellyRec - A Jellyfin Movie/Show Recommender'
 date: 2024-7-8
 toc: true
 toc_sticky: true
@@ -73,4 +73,61 @@ This one uses cosine similarity, is text based
 
 This one explains an alternative approach to collaborative filtering (content-based)
 
-# More to come...
+
+## Progress :chart_with_upwards_trend:
+
+### 2024-9-11
+
+The project is mostly considered complete, and you can find the github repository here: [Github Repo Link](https://github.com/zzuo123/jellyrec)
+
+It consists of the following components:
+- **frontend/**: A Svelte frontend that connects to the backend and displays the recommended movies
+- **backend/**: An Express backend that connects to the Jellyfin server as well as a python Flask server that serves the recommendation system
+- **recommendation_experiments/**: A collection of Jupyter notebooks that I used to experiment with different recommendation systems, it's pretty disorganized but contains some useful code snippets that can be improved upon
+
+Here are some screenshots of the project:
+
+![Login Page](https://i.ibb.co/Cs4vGmx/image.png)
+*Login Page*
+
+![Home Page](https://i.ibb.co/XWSGq3x/image.png)
+*Home Page*
+
+A user can login with their Jellyfin credentials, and the app will recommend movies based on their viewing history. The recommendation system is a simple collaborative filtering system that uses the MovieLens dataset.
+
+**Running the project:**
+
+To run the project, you first need to clone the Github Repository using the following command:
+
+```bash
+git clone https://github.com/zzuo123/jellyrec.git
+```
+
+Then you need to install the dependencies for the frontend and backend:
+
+```bash
+cd frontend
+npm install
+cd ../backend
+npm install
+cd python
+pip install -r requirements.txt
+```
+
+Then you need to start the backend server:
+
+```bash
+cd backend
+npm run dev
+```
+
+And then you need to start the frontend server:
+
+```bash
+cd frontend
+npm run dev
+```
+
+And then you can access the app at [http://localhost:5000](http://localhost:5000) or whichever port the frontend server is running on.
+
+Try it out and let me know what you think! :smile:
