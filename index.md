@@ -15,8 +15,8 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/a-group-of-trees-covered-in-snow-on-a-cloudy-day-ur3pxr-6CmA)"
 excerpt: "<h2 id=\"header\">I am a <span class=\"typewrite\" data-period=\"1000\" data-type='[ \"Student\", \"Programmer\", \"Maker\", \"Adventurer\" ]'><span class=\"wrap\"></span></span>.</h2>"
 feature_row:
-  - image_path: https://i.ibb.co/ZKh3sSf/jellyfin-home.png
-    alt: "Jellyfin Home Page"
+  - image_path: https://i.ibb.co/XWSGq3x/image.png
+    alt: "JellyRec Home Page"
     title: "JellyRec - A Jellyfin Movie/Show Recommender"
     excerpt: "A movie recommendation system based on past viewing activities."
     url: "/blog/jellyrec"
