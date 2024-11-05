@@ -97,35 +97,30 @@ A user can login with their Jellyfin credentials, and the app will recommend mov
 
 **Running the project:**
 
+Update (11/05/2024): To streamline the installation process, Docker is now used to run the project. To install docker, follow the instructions [here](https://docs.docker.com/get-docker/).
+
+To test if Docker is installed correctly, run the following command:
+
+```bash
+docker --version
+```
+
+You should see something like this:
+
+```bash
+Docker version <Version>, build <Build Number>
+```
+
 To run the project, you first need to clone the Github Repository using the following command:
 
 ```bash
 git clone https://github.com/zzuo123/jellyrec.git
 ```
 
-Then you need to install the dependencies for the frontend and backend:
+Then, navigate to the project directory and run the following command to build and start the project:
 
 ```bash
-cd frontend
-npm install
-cd ../backend
-npm install
-cd python
-pip install -r requirements.txt
-```
-
-Then you need to start the backend server:
-
-```bash
-cd backend
-npm run dev
-```
-
-And then you need to start the frontend server:
-
-```bash
-cd frontend
-npm run dev
+docker compose up -d
 ```
 
 And then you can access the app at [http://localhost:5000](http://localhost:5000) or whichever port the frontend server is running on.
