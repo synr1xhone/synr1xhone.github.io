@@ -15,7 +15,7 @@ tags:
 
 ## Introduction/Background
 
-[OpenWebUI](https://github.com/open-webui/open-webui) is an open-source self-hosted AI interface that provides a user-friendly web interface for Ollama and OpenAI-Compatible APIs. It also support advance features such as RAG and tool usage (which is what this post is going to be about). I have been self-hosting OpenWebUI for about a year now, it serves as a cost-effective way for me to explore the various models from OpenAI. Check out [this post]() if you want to learn more about my self-hosting experience.
+[OpenWebUI](https://github.com/open-webui/open-webui) is an open-source self-hosted AI interface that provides a user-friendly web interface for Ollama and OpenAI-Compatible APIs. It also support advance features such as RAG and tool usage (which is what this post is going to be about). I have been self-hosting OpenWebUI for about a year now, it serves as a cost-effective way for me to explore the various models from OpenAI. Check out [this post](https://zzuo123.github.io/blog/gserve/) if you want to learn more about my self-hosting experience.
 
 ![OpenWebUI Home Page](https://i.ibb.co/DgYn8p1x/openwebui.png)
 *OpenWebUI Home Page*
@@ -196,6 +196,6 @@ However, for some reason the tools aren't being used by the model at all. Even t
 
 As some of you have already noticed, it seems like currently ReAct like interleaved reasoning/thinking and tool usage isn't currently supported in OpenWebUI (or it could be a configuration issue). So for now, I will be defaulting to testing ReAct functionality using the python script in the previous section using LangGraph. But hopefully one day this feature will be added and I can use it in OpenWebUI. 
 
-# Conclusion
+## Conclusion
 
 This has been a fun learning experience for me. I learned a ton about the MCP protocol, OpenAPI tools protocol, as well as network debugging. Hopefully is fun for you to read and you learn something too! :smile:
