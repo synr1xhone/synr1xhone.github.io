@@ -15,6 +15,13 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/a-group-of-trees-covered-in-snow-on-a-cloudy-day-ur3pxr-6CmA)"
 excerpt: "<h2 id=\"header\">I am a <span class=\"typewrite\" data-period=\"1000\" data-type='[ \"Student\", \"Programmer\", \"Maker\", \"Adventurer\" ]'><span class=\"wrap\"></span></span>.</h2>"
 feature_row:
+  - image_path: https://i.ibb.co/HDHG0M8m/image.png
+    alt: "MCP math tool inside OpenWebUI"
+    title: "My experience with MCP and OpenWebUI"
+    excerpt: "My experience working with MCP (model context protocol) and OpenWebUI"
+    url: "/blog/mcp-openwebui"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: https://i.ibb.co/XWSGq3x/image.png
     alt: "JellyRec Home Page"
     title: "JellyRec - A Jellyfin Movie/Show Recommender"
@@ -27,13 +34,6 @@ feature_row:
     title: "GServe: My Personal Server"
     excerpt: "An HP Envy X360 Laptop running a suite of services on Docker."
     url: "/blog/gserve"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: https://i.ibb.co/wB14JsQ/pc-cover.png
-    alt: "Poll Creator Frontend Screenshot"
-    title: "Poll Creator Pro Max Ultra"
-    excerpt: "A web application that allows users to create and share polls with their friends."
-    url: "/projects/poll-creator"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
