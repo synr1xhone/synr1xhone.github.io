@@ -1,9 +1,10 @@
 # =============================================================================
 # Site settings
 # =============================================================================
-title: 思远的博客
+title: Siyuan’s Journal
 subtitle: >-
-  热爱探索科技与人文的交汇点。
+  “The most beautiful thing we can experience is the mysterious. It is the source of all true art and science.”
+——Albert Einstein
 email: sikyuan@outlook.com
 description: >-
   一名来自中国的高中生，热爱探索科技与人文的交汇点。正在努力学习数理与编程，希望未来能在人工智能或工程技术领域做出自己的贡献。
@@ -43,9 +44,9 @@ plugins:
 # Author Defaults
 # =============================================================================
 author:
-  name    : "思远"
+  name    : "siyuan"
   avatar  : "/assets/images/siyuan-avatar.jpg" # 你的头像路径
-  bio     : "一名来自中国珠海的高中生，正在努力学习数理与编程。"
+  bio     : "A high school student from Zhuhai, China, learning math and programming with curiosity and determination."
   location: "珠海, 中国"
   links:
     - label: "GitHub"
