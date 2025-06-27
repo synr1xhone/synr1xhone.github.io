@@ -1,7 +1,11 @@
 # main navigation
 main:
+  - title: "关于我"
+    url: /
   - title: "博客"
     url: /year-archive/
+  - title: "读书笔记" # <-- 这是新加的行
+    url: /categories/#读书笔记 # <-- 这是新加的行，注意链接格式
   - title: "分类"
     url: /categories/
   - title: "标签"
