@@ -1,4 +1,3 @@
-main:
 # main navigation
 main:
   - title: "关于我"
@@ -8,14 +7,4 @@ main:
   - title: "分类"
     url: /categories/
   - title: "标签"
-    url: /tags/
-  - title: "Home"
-    url: /
-  - title: "Blog"
-    url: /blog/
-  # - title: "Posts"
-  #   url: /posts/
-  # - title: "Categories"
-    # url: /categories/
-  - title: "Tags"
     url: /tags/
