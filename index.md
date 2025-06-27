@@ -9,10 +9,10 @@ header:
   actions:
     - label: "<i class='fas fa-fw fa-book-reader'></i> 查看我的博客"
       url: "/year-archive/"
-title: "你好，我是思远"
+title: "Hi there👋, I am Siyuan"
 excerpt: >
-  我是一名 <span id="typed-text"></span><br />
-  热爱探索科技与人文的交汇点。
+  <span id="typed-text"></span><br />
+  我对人是如何思考、学习和创造非常好奇。
 ---
 
 <!-- 这是一个分隔符，让主页的结构更清晰 -->
@@ -20,7 +20,7 @@ excerpt: >
 <div class="feature__item">
 
 <!-- =================================================================== -->
-<!--      新增的“关于我”详细介绍部分，直接展示在主页上                -->
+<!--      详细的双语“关于我”介绍部分 (保持静态，方便阅读)           -->
 <!-- =================================================================== -->
 
 <div class="archive__item">
@@ -28,11 +28,24 @@ excerpt: >
     <img src="/assets/images/siyuan-avatar.jpg" alt="思远" style="border-radius: 50%;">
   </div>
   <div class="archive__item-body">
-    <h2 class="archive__item-title">关于我</h2>
+    <h2 class="archive__item-title">About Me / 关于我</h2>
     <div class="archive__item-excerpt">
-      <p>我正在努力学习数理与编程，希望未来能在人工智能或工程技术领域做出自己的贡献。</p>
-      <p>在这个博客里，我将分享我的学习笔记、思考随笔，以及在日常生活中对世界的观察。希望你能在这里找到共鸣，也欢迎与你交流想法！</p>
-      <p>
+      <p>I'm especially interested in artificial intelligence. I want to understand how AI can think, and how it can help people learn better.</p>
+      <p><small>我特别对人工智能感兴趣。我想了解 AI 是如何“思考”的，以及它如何帮助人类更好地学习。</small></p>
+
+      <p>In the future, I hope to study neuroscience so I can understand how the brain works, and how that connects to AI.</p>
+      <p><small>未来我希望学习一些脑神经科学的知识，以更好地理解大脑的工作方式，并将其与 AI 联系起来。</small></p>
+
+      <p>This blog is where I write down my thoughts, learning notes, and quotes from books.</p>
+      <p><small>这个博客是我用来记录思考、学习笔记和读书摘录的地方。</small></p>
+
+      <p>I hope my writing can inspire others, and help us think more deeply together.</p>
+      <p><small>我希望我的写作可以启发他人，也帮助我们一起更深入地思考。</small></p>
+
+      <p>Thank you for visiting! Feel free to contact me if you'd like to talk.</p>
+      <p><small>感谢你的来访！如果你愿意交流，欢迎随时联系我。</small></p>
+      
+      <p style="margin-top: 2em;">
         <a href="https://github.com/synr1xhone" class="btn btn--inverse">GitHub</a>
         <a href="mailto:sikyuan@outlook.com" class="btn btn--inverse">Email</a>
       </p>
@@ -44,24 +57,22 @@ excerpt: >
 </div>
 
 <!-- =================================================================== -->
-<!--      下面的代码是实现打字机效果的“魔法”，请不要修改它们            -->
+<!--      打字机效果的“魔法”脚本 (重新添加回来)                     -->
 <!-- =================================================================== -->
 
-<!-- 第一步：引入 Typed.js 库 -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-<!-- 第二步：配置并启动打字机效果 -->
 <script>
   var typed = new Typed('#typed-text', {
     strings: [
-      "高中生",
-      "探索者",
-      "学习者",
-      "思考家",
-      "未来的工程师"
+      "我是一名高中生。",
+      "I am a High School Student.",
+      "我是一名探索者。",
+      "I am a Curious Explorer.",
+      "我是一名未来的工程师。",
+      "I am an Aspiring Engineer."
     ],
     typeSpeed: 80,
-    backSpeed: 50,
+    backSpeed: 40,
     loop: true,
     showCursor: true,
     cursorChar: ' |'
