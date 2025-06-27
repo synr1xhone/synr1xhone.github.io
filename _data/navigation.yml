@@ -1,7 +1,5 @@
 # main navigation
 main:
-  - title: "关于我"
-    url: /about/
   - title: "博客"
     url: /year-archive/
   - title: "分类"
