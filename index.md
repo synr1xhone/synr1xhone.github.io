@@ -11,7 +11,7 @@ header:
       url: "/year-archive/"
 title: "你好，我是思远"
 excerpt: >
-  一名来自中国珠海的高中生。<br />
+  我是一名 <span id="typed-text"></span><br />
   热爱探索科技与人文的交汇点。
 feature_row:
   - image_path: /assets/images/siyuan-avatar.jpg
