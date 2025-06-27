@@ -9,10 +9,10 @@ header:
   actions:
     - label: "<i class='fas fa-fw fa-book-reader'></i> 查看我的博客"
       url: "/year-archive/"
-title: "你好，我是思远"
+title: "Hi there👋, I am Siyuan!"
 excerpt: >
   <span id="typed-text"></span><br />
-  我对人是如何思考、学习和创造非常好奇。
+  What we build reflects how we understand ourselves.
 ---
 
 <!-- =================================================================== -->
@@ -39,13 +39,11 @@ excerpt: >
       <p><small>这个博客是我用来记录思考、学习笔记和读书摘录的地方。</small></p>
       
       <!-- 如果你想展示所有文字，可以取消下面的注释 -->
-      <!--
       <p>I hope my writing can inspire others, and help us think more deeply together.</p>
       <p><small>我希望我的写作可以启发他人，也帮助我们一起更深入地思考。</small></p>
 
       <p>Thank you for visiting! Feel free to contact me if you'd like to talk.</p>
       <p><small>感谢你的来访！如果你愿意交流，欢迎随时联系我。</small></p>
-      -->
     </div>
     <p style="margin-top: 2em;">
       <a href="https://github.com/synr1xhone" class="btn btn--inverse">GitHub</a>
