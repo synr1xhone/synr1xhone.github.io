@@ -1,61 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+# =============================================================================
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: George Zuo
+# =============================================================================
+title: 思远的博客
 subtitle: >-
-  Master Student @ Univ. of Mass. Amherst, CICS.
-email: georgezuo888@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Zhiyang (George) Zuo's Personal Website, Portfolio, and Blog
-url: "https://zzuo123.github.io" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog
-repository: "zzuo123/zzuo123.github.io" # the GitHub repository hosting your site
-teaser: "/assets/images/bio-photo.jpg" # Used to generate absolute URL to image on homepage.
-logo: "/assets/icons/favicon.ico"
-# twitter_username: username
-github_username: zzuo123
-minimal_mistakes_skin: dark
+  热爱探索科技与人文的交汇点。
+email: sikyuan@outlook.com
+description: >-
+  一名来自中国的高中生，热爱探索科技与人文的交汇点。正在努力学习数理与编程，希望未来能在人工智能或工程技术领域做出自己的贡献。
+url: "https://synr1xhone.github.io" # 你的博客网址
+baseurl: "" # 保持为空
+repository: "synr1xhone/synr1xhone.github.io" # 你的仓库地址
+teaser: "/assets/images/siyuan-avatar.jpg" # 首页摘要图，使用你的头像
+logo: "/assets/icons/favicon.ico" # 网站小图标
+github_username: synr1xhone
+minimal_mistakes_skin: dark # 深色主题皮肤
 search: true
 breadcrumbs: true
-words_per_minute: 183 # average readers can read 183 words per minute
+words_per_minute: 183
 
+# =============================================================================
 # Build settings
+# =============================================================================
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /blog/page:num
-timezone: America/New_York
+timezone: Asia/Shanghai # 你的时区
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -64,53 +39,37 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-
+# =============================================================================
+# Author Defaults
+# =============================================================================
 author:
-  name    : "George Zuo"
-  avatar  : "/assets/images/bio-photo.jpg"
-  bio     : "Master Student @ Univ. of Mass. Amherst, CICS."
-  location: "Amherst, MA"
+  name    : "思远"
+  avatar  : "/assets/images/siyuan-avatar.jpg" # 你的头像路径
+  bio     : "一名来自中国珠海的高中生，正在努力学习数理与编程。"
+  location: "珠海, 中国"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://zzuo123.github.io/legacy-site"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/zzuo123"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/zhiyangzuo/"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube-square"
-      url: "https://www.youtube.com/@georgezuo4620"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/george.zuo01"
+      url: "https://github.com/synr1xhone"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:georgezuo888@gmail.com"
-    - label: "Resume"
-      icon: "fas fa-fw fa-file"
-      url: "/assets/files/resume.pdf"
+      url: "mailto:sikyuan@outlook.com"
 
+# =============================================================================
+# Footer Links
+# =============================================================================
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/zzuo123"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/zhiyangzuo/"
+      url: "https://github.com/synr1xhone"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:georgezuo888@gmail.com"
+      url: "mailto:sikyuan@outlook.com"
 
+# =============================================================================
+# Defaults
+# =============================================================================
 defaults:
   # _posts
   - scope:
