@@ -1,12 +1,12 @@
 # main navigation
 main:
-  - title: "关于我"
+  - title: "Home"
     url: /
-  - title: "博客"
+  - title: "Blog"
     url: /year-archive/
-  - title: "读书笔记" # <-- 这是新加的行
-    url: /categories/#读书笔记 # <-- 这是新加的行，注意链接格式
-  - title: "分类"
+  - title: "Reading Notes" # <-- 新的独立页面
+    url: /reading-notes/ # <-- 它的专属链接
+  - title: "Categories"
     url: /categories/
-  - title: "标签"
+  - title: "Tags"
     url: /tags/
