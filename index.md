@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_image: /assets/images/your-hero-image.jpg
+  overlay_image: /assets/images/home-bg.jpg
   overlay_filter: 0.5 # (0.0 - 1.0)
   caption: "图片来源: [Unsplash](https://unsplash.com)"
   actions:
