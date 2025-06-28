@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
   - title: "Reading Notes" # <-- 新的独立页面
     url: /reading-notes/ # <-- 它的专属链接
   - title: "Categories"
