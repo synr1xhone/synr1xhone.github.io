@@ -1,15 +1,16 @@
----
----
+{%- comment -%}
+  © 2021-2024 Michael Rose
+  © 2024 Sikyuan (Customizations)
+{%- endcomment -%}
 
 <!doctype html>
-{% include copyright.html %}
-<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
+<html lang="{{ site.locale | replace: '_', '-' | default: 'en' }}" class="no-js">
   <head>
     {% include head.html %}
     {%- include head/custom.html -%}
   
-  <!-- 👇 在这里添加你的自定义CSS链接 👇 -->
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <!-- 自定义CSS链接 (修正后) -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
@@ -34,12 +35,10 @@
       </footer>
     </div>
 
-    {% include scripts.html %}{% include scripts.html %}
+    {% include scripts.html %}
   
-  <!-- 👇 在这里添加你的自定义JS和粒子库链接 👇 -->
-  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-  <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
-  
-
+    <!-- 自定义JS和粒子库链接 (修正后) -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
   </body>
 </html>
