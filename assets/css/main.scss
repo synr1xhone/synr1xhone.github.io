@@ -1,0 +1,58 @@
+/* ---
+# This file is intentionally blank.
+#
+# The main SCSS file is processed by gulp and the resulting CSS file is
+# available in /assets/css/main.css.
+--- */
+@charset "UTF-8";
+
+/* ==========================================================================
+   1. 导入 Minimal Mistakes 主题的默认样式 (必须放在最顶端！)
+   ========================================================================== */
+@import "{{ site.theme }}";
+
+/* ==========================================================================
+   2. 为主内容区添加模糊遮罩和阴影
+   ========================================================================== */
+#main .page {
+  /* 模糊玻璃效果 (Frosted Glass Effect) */
+  background-color: rgba(30, 30, 40, 0.75); /* 深色半透明背景 */
+  -webkit-backdrop-filter: blur(16px) saturate(120%); /* 兼容 Safari */
+  backdrop-filter: blur(16px) saturate(120%); /* 标准模糊滤镜 */
+
+  /* 柔和卡片阴影 */
+  border-radius: 12px; /* 圆角 */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* 辉光阴影 */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* 精致边框 */
+}
+
+/* ==========================================================================
+   3. 为 Hero 区域的按钮添加悬停动效
+   ========================================================================== */
+.page__hero .btn--light-outline {
+  /* 为按钮的基础状态添加平滑过渡 */
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-width: 2px;
+  animation: float-in 0.8s ease-out forwards;
+}
+
+/* 定义按钮的 hover (鼠标悬停) 状态 */
+.page__hero .btn--light-outline:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 0 20px 8px rgba(255, 255, 255, 0.4);
+}
+
+/* 定义按钮的浮入动画 */
+@keyframes float-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
