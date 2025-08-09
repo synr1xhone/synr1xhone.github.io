@@ -1,27 +1,31 @@
-# Minimal Mistakes remote theme starter
+# 思远日志
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+欢迎来到 **思远日志**！这是我的个人博客，在这里我记录和分享我的一些心得、总结和想法。内容涵盖了生活、学习、技术等多个方面，虽然我并不擅长写代码，甚至连 Markdown 都不熟悉，但我依托 AI 的帮助，让这个博客能够顺利搭建并保持更新。
 
-Contains basic configuration to get you a site with:
+## 关于我
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+我是 **思远 (Siyuan)**，一个热衷于学习和分享的人。在这个博客上，你会看到我对不同事物的思考，不论是对生活的感悟，还是对某些技术的简单总结。我希望通过写作，能够将这些想法整理下来，并与他人分享，哪怕只有少数人看到，也算是达到了我的目的。
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## 博客功能
+
+- **总结与心得**：这是我用来记录学习和生活中各种想法的地方。
+- **文章分类**：每篇文章都会根据内容进行分类，方便你快速找到感兴趣的内容。
+- **简单的搜索功能**：你可以使用搜索框来查找我写的文章。
+- **社交媒体链接**：如果你想了解更多我的动态，可以在下面找到我的社交媒体链接。
+
+## 如何使用
+
+这个博客使用的是 [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)，在 GitHub 上托管和部署。你可以根据以下步骤来部署自己的博客：
+
+1. 点击 [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) 按钮来创建一个新的仓库。
+2. 根据 [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes) 文档配置你的网站。
+3. 更新内容文件，替换为你自己的博客内容。
+4. 将博客部署到 [GitHub Pages](https://pages.github.com/) 上。
+
+## 版权与声明
+
+本博客的所有内容均为个人原创，版权归我所有。如需转载，请注明出处。
 
 ---
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+如果你有任何问题或建议，欢迎通过我的社交媒体与我联系！
